@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Projects and Skills Showcase</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#13b6ec",
+                        "background-light": "#f8fbfc",
+                        "background-dark": "#101d22",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#0d181b] dark:text-gray-100 transition-colors duration-200">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Header -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-[#e7f0f3] dark:border-gray-800 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md px-10 py-3">
+<div class="flex items-center gap-4 text-[#0d181b] dark:text-white">
+<div class="size-8 text-primary">
+<span class="material-symbols-outlined text-3xl">code_blocks</span>
+</div>
+<h2 class="text-[#0d181b] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Portfolio</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<nav class="hidden md:flex items-center gap-9">
+<a class="text-[#0d181b] dark:text-gray-300 hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Projects</a>
+<a class="text-[#0d181b] dark:text-gray-300 hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Skills</a>
+<a class="text-[#0d181b] dark:text-gray-300 hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">About</a>
+<a class="text-[#0d181b] dark:text-gray-300 hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Contact</a>
+</nav>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white hover:bg-primary/90 transition-colors text-sm font-bold leading-normal tracking-[0.015em] shadow-sm">
+<span class="truncate">Contact Me</span>
+</button>
+</div>
+</header>
+<main class="flex-1 flex flex-col items-center py-10 px-4 md:px-10 lg:px-20">
+<!-- Projects Section -->
+<section class="w-full max-w-6xl mb-20">
+<!-- Section Header -->
+<div class="flex flex-col gap-3 mb-8">
+<h1 class="text-[#0d181b] dark:text-white text-4xl font-black leading-tight tracking-[-0.033em]">Featured Projects</h1>
+<p class="text-[#4c869a] dark:text-gray-400 text-lg font-normal leading-normal max-w-2xl">
+                        A selection of my work in Web Development and Product Management, crafted with precision from Abu, Rajasthan.
+                    </p>
+</div>
+<!-- Filters -->
+<div class="flex flex-wrap gap-3 mb-8">
+<button class="flex h-9 items-center justify-center rounded-lg bg-[#0d181b] dark:bg-primary text-white px-5 transition-transform active:scale-95 shadow-md">
+<p class="text-sm font-medium leading-normal">All</p>
+</button>
+<button class="flex h-9 items-center justify-center rounded-lg bg-[#e7f0f3] dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 px-5 transition-colors">
+<p class="text-[#0d181b] dark:text-gray-300 text-sm font-medium leading-normal">Web Apps</p>
+</button>
+<button class="flex h-9 items-center justify-center rounded-lg bg-[#e7f0f3] dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 px-5 transition-colors">
+<p class="text-[#0d181b] dark:text-gray-300 text-sm font-medium leading-normal">SaaS</p>
+</button>
+<button class="flex h-9 items-center justify-center rounded-lg bg-[#e7f0f3] dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 px-5 transition-colors">
+<p class="text-[#0d181b] dark:text-gray-300 text-sm font-medium leading-normal">Tools</p>
+</button>
+</div>
+<!-- Projects Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="group flex flex-col bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+<div class="w-full aspect-video bg-gray-200 relative overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Modern analytics dashboard interface" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuApXzxG-8Rh7DY71lQ2lO0SDwZ0fyzX1cq1EkoSbk3GlD1R9KyJunq_7KjSzucmiCJU0tli5fyoE2OBHqA17ThGabSBr8DEydvi1lciFrGObQETmelQsG4UKlXBibW4SNMw7LHVlVYUFPmkqpkWNGgpL1t2gIjUd8V_WqkWsIios6ugGVy1WCtDxjzkKl33AoHPOoceL0PR07cY_4gAuEeshEMe0ppRVXZwnoWB273CNgDb63ig0s2xsPq7fISl5VScvjMzL4S9Bg');">
+</div>
+</div>
+<div class="p-5 flex flex-col flex-1">
+<h3 class="text-lg font-bold text-[#0d181b] dark:text-white mb-2">E-commerce Dashboard</h3>
+<p class="text-[#4c869a] dark:text-gray-400 text-sm mb-4 line-clamp-2 flex-1">
+                                A comprehensive analytics dashboard for online retailers to track sales, inventory, and customer insights in real-time.
+                            </p>
+<!-- Tech Stack -->
+<div class="flex flex-wrap gap-2 mb-5">
+<span class="px-2 py-1 rounded bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-300 text-xs font-semibold">React</span>
+<span class="px-2 py-1 rounded bg-green-50 dark:bg-green-900/30 text-green-600 dark:text-green-300 text-xs font-semibold">Node.js</span>
+<span class="px-2 py-1 rounded bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-xs font-semibold">MongoDB</span>
+</div>
+<!-- Actions -->
+<div class="flex gap-3 mt-auto">
+<button class="flex-1 h-9 rounded-lg bg-primary hover:bg-primary/90 text-white text-sm font-semibold transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+                                    Live Demo
+                                </button>
+<button class="flex-1 h-9 rounded-lg border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700 text-[#0d181b] dark:text-white text-sm font-semibold transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">code</span>
+                                    Code
+                                </button>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group flex flex-col bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+<div class="w-full aspect-video bg-gray-200 relative overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Kanban board application interface" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDS03RUG0nhqK_I2pvL99fSrsETRp1HvsJKgRNlWd8rEc5XG-BNfIBocc_p9yGZNgraFC7hCHf91TAUo0q52S_JyM4Hdmf5ySNei-fnkWq-2kXFCkwKveoM6b8vhQleTt4j-9mbJcAM3LUKLmkdJmcdmX4scPZZvyn6OZNYKp2upK3d9RuBOqKw6zMl3f-G7DzdvQJfunr8TgprixJQ_VwMZZ0QN1qGaJB8k-JX8WZEaJ07TfTs5CrMGYi7Swy0rWOVlAcTq_Dubw');">
+</div>
+</div>
+<div class="p-5 flex flex-col flex-1">
+<h3 class="text-lg font-bold text-[#0d181b] dark:text-white mb-2">TaskFlow SaaS</h3>
+<p class="text-[#4c869a] dark:text-gray-400 text-sm mb-4 line-clamp-2 flex-1">
+                                Collaborative project management tool designed for remote teams featuring real-time updates and integrated video calls.
+                            </p>
+<div class="flex flex-wrap gap-2 mb-5">
+<span class="px-2 py-1 rounded bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-300 text-xs font-semibold">Vue.js</span>
+<span class="px-2 py-1 rounded bg-orange-50 dark:bg-orange-900/30 text-orange-600 dark:text-orange-300 text-xs font-semibold">Firebase</span>
+<span class="px-2 py-1 rounded bg-purple-50 dark:bg-purple-900/30 text-purple-600 dark:text-purple-300 text-xs font-semibold">Stripe</span>
+</div>
+<div class="flex gap-3 mt-auto">
+<button class="flex-1 h-9 rounded-lg bg-primary hover:bg-primary/90 text-white text-sm font-semibold transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+                                    Live Demo
+                                </button>
+<button class="flex-1 h-9 rounded-lg border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700 text-[#0d181b] dark:text-white text-sm font-semibold transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">code</span>
+                                    Code
+                                </button>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group flex flex-col bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+<div class="w-full aspect-video bg-gray-200 relative overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Code editor interface with dark theme" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAv8oZYhawkRVBBRRO5YoJpfbSuBZ8WG3aV6ddidYu61JQX2BkDSJmPlQeDiAbDG-MfMaX7pq4ydY4VoUk1jXmKTkuHDy72KQCPhjBh9-ogMnsSiilV-YeIM7Jd9CJW7INL3W3Si6O30BOwXCMA6UfCOe-gitE9tCDhz3C2RmZav3HQwiP5YXDjGh_sX3iDzAlHQiA9OXG9JLGfYQpvLVeCvuEF78NXgUnEmLo88c3eknPo7KQfjMIinBtNiFLXCBzd08wXmR2jJA');">
+</div>
+</div>
+<div class="p-5 flex flex-col flex-1">
+<h3 class="text-lg font-bold text-[#0d181b] dark:text-white mb-2">DevTool Kit</h3>
+<p class="text-[#4c869a] dark:text-gray-400 text-sm mb-4 line-clamp-2 flex-1">
+                                A collection of browser-based utilities for developers including JSON formatter, JWT decoder, and regex tester.
+                            </p>
+<div class="flex flex-wrap gap-2 mb-5">
+<span class="px-2 py-1 rounded bg-yellow-50 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-300 text-xs font-semibold">JavaScript</span>
+<span class="px-2 py-1 rounded bg-cyan-50 dark:bg-cyan-900/30 text-cyan-600 dark:text-cyan-300 text-xs font-semibold">Tailwind</span>
+</div>
+<div class="flex gap-3 mt-auto">
+<button class="flex-1 h-9 rounded-lg bg-primary hover:bg-primary/90 text-white text-sm font-semibold transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+                                    Live Demo
+                                </button>
+<button class="flex-1 h-9 rounded-lg border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700 text-[#0d181b] dark:text-white text-sm font-semibold transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">code</span>
+                                    Code
+                                </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Skills Section -->
+<section class="w-full max-w-6xl">
+<!-- Header -->
+<div class="mb-10 text-center md:text-left">
+<h2 class="text-[#0d181b] dark:text-white text-3xl font-black leading-tight tracking-[-0.02em] mb-3">Technical Expertise</h2>
+<p class="text-[#4c869a] dark:text-gray-400 text-base font-normal max-w-2xl">
+                        My technical toolbelt for building scalable applications and managing products effectively.
+                    </p>
+</div>
+<div class="flex flex-col md:flex-row gap-8">
+<!-- Tabs Sidebar -->
+<div class="flex md:flex-col gap-2 overflow-x-auto md:overflow-visible pb-2 md:pb-0 md:w-64 shrink-0">
+<button class="flex items-center gap-3 px-4 py-3 rounded-lg bg-white dark:bg-gray-800 border-l-4 border-primary shadow-sm text-left transition-all">
+<span class="material-symbols-outlined text-primary">devices</span>
+<div>
+<p class="font-bold text-[#0d181b] dark:text-white text-sm">Frontend</p>
+<p class="text-xs text-gray-500 dark:text-gray-400">UI &amp; User Experience</p>
+</div>
+</button>
+<button class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-white/60 dark:hover:bg-gray-800/60 text-gray-600 dark:text-gray-400 hover:text-[#0d181b] dark:hover:text-white text-left transition-all border-l-4 border-transparent">
+<span class="material-symbols-outlined">dns</span>
+<div>
+<p class="font-bold text-sm">Backend</p>
+<p class="text-xs opacity-80">Server &amp; Database</p>
+</div>
+</button>
+<button class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-white/60 dark:hover:bg-gray-800/60 text-gray-600 dark:text-gray-400 hover:text-[#0d181b] dark:hover:text-white text-left transition-all border-l-4 border-transparent">
+<span class="material-symbols-outlined">cloud_sync</span>
+<div>
+<p class="font-bold text-sm">DevOps</p>
+<p class="text-xs opacity-80">CI/CD &amp; Cloud</p>
+</div>
+</button>
+</div>
+<!-- Skills Content Area -->
+<div class="flex-1 bg-white dark:bg-gray-800 rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 dark:border-gray-700">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-6">
+<!-- Skill Item -->
+<div class="space-y-2">
+<div class="flex justify-between items-end">
+<div class="flex items-center gap-2">
+<i class="devicon-react-original text-xl text-[#0d181b] dark:text-white"></i>
+<span class="font-semibold text-sm text-[#0d181b] dark:text-white">React &amp; Next.js</span>
+</div>
+<span class="text-xs font-bold text-primary">95%</span>
+</div>
+<div class="h-2 w-full bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full w-[95%]"></div>
+</div>
+</div>
+<!-- Skill Item -->
+<div class="space-y-2">
+<div class="flex justify-between items-end">
+<div class="flex items-center gap-2">
+<span class="font-semibold text-sm text-[#0d181b] dark:text-white">TypeScript</span>
+</div>
+<span class="text-xs font-bold text-primary">85%</span>
+</div>
+<div class="h-2 w-full bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full w-[85%]"></div>
+</div>
+</div>
+<!-- Skill Item -->
+<div class="space-y-2">
+<div class="flex justify-between items-end">
+<div class="flex items-center gap-2">
+<span class="font-semibold text-sm text-[#0d181b] dark:text-white">Tailwind CSS</span>
+</div>
+<span class="text-xs font-bold text-primary">98%</span>
+</div>
+<div class="h-2 w-full bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full w-[98%]"></div>
+</div>
+</div>
+<!-- Skill Item -->
+<div class="space-y-2">
+<div class="flex justify-between items-end">
+<div class="flex items-center gap-2">
+<span class="font-semibold text-sm text-[#0d181b] dark:text-white">Figma / UI Design</span>
+</div>
+<span class="text-xs font-bold text-primary">80%</span>
+</div>
+<div class="h-2 w-full bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full w-[80%]"></div>
+</div>
+</div>
+<!-- Skill Item -->
+<div class="space-y-2">
+<div class="flex justify-between items-end">
+<div class="flex items-center gap-2">
+<span class="font-semibold text-sm text-[#0d181b] dark:text-white">Redux / State Mgmt</span>
+</div>
+<span class="text-xs font-bold text-primary">90%</span>
+</div>
+<div class="h-2 w-full bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full w-[90%]"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="border-t border-[#e7f0f3] dark:border-gray-800 py-8 px-10 bg-white dark:bg-background-dark">
+<div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-[#4c869a] dark:text-gray-500 text-sm">© 2024 Portfolio. All rights reserved.</p>
+<div class="flex items-center gap-2 text-sm text-[#4c869a] dark:text-gray-500">
+<span class="material-symbols-outlined text-[16px] text-red-500">favorite</span>
+<span>Made in Abu, Rajasthan</span>
+</div>
+<div class="flex gap-4">
+<a class="text-[#0d181b] dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined">link</span>
+</a>
+<a class="text-[#0d181b] dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined">mail</span>
+</a>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
