@@ -98,13 +98,15 @@
                         <a class="text-sm font-medium hover:text-primary transition-colors text-slate-500 dark:text-slate-400"
                             href="#about">About</a>
                         <a class="text-sm font-medium hover:text-primary transition-colors text-slate-500 dark:text-slate-400"
-                            href="#projects">Projects</a>
-                        <a class="text-sm font-medium hover:text-primary transition-colors text-slate-500 dark:text-slate-400"
                             href="#skills">Skills</a>
                         <a class="text-sm font-medium hover:text-primary transition-colors text-slate-500 dark:text-slate-400"
-                            href="#achievements">Achievements</a>
+                            href="#projects">Projects</a>
                         <a class="text-sm font-medium hover:text-primary transition-colors text-slate-500 dark:text-slate-400"
                             href="#certificates">Certificates</a>
+                        <a class="text-sm font-medium hover:text-primary transition-colors text-slate-500 dark:text-slate-400"
+                            href="#experience">Experience</a>
+                        <a class="text-sm font-medium hover:text-primary transition-colors text-slate-500 dark:text-slate-400"
+                            href="#achievements">Achievements</a>
                     </nav>
                     <div class="flex items-center gap-4">
                         <button id="theme-toggle"
@@ -112,7 +114,7 @@
                             <span class="material-symbols-outlined block dark:hidden">dark_mode</span>
                             <span class="material-symbols-outlined hidden dark:block">light_mode</span>
                         </button>
-                        <a href="Shivang Goliyan CV.pdf" download
+                        <a href="Shivang_Goliyan_12312328_CV_Checked.pdf" download
                             class="text-sm font-medium text-primary hover:underline">Resume</a>
                         <a href="#contact"
                             class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary hover:bg-primary/90 text-white text-sm font-bold leading-normal tracking-[0.015em] transition-all">
@@ -144,15 +146,17 @@
                 <a class="text-sm font-medium hover:text-primary transition-colors text-slate-500 dark:text-slate-400"
                     href="#about">About</a>
                 <a class="text-sm font-medium hover:text-primary transition-colors text-slate-500 dark:text-slate-400"
-                    href="#projects">Projects</a>
-                <a class="text-sm font-medium hover:text-primary transition-colors text-slate-500 dark:text-slate-400"
                     href="#skills">Skills</a>
                 <a class="text-sm font-medium hover:text-primary transition-colors text-slate-500 dark:text-slate-400"
-                    href="#achievements">Achievements</a>
+                    href="#projects">Projects</a>
                 <a class="text-sm font-medium hover:text-primary transition-colors text-slate-500 dark:text-slate-400"
                     href="#certificates">Certificates</a>
                 <a class="text-sm font-medium hover:text-primary transition-colors text-slate-500 dark:text-slate-400"
-                    href="Shivang Goliyan CV.pdf" download>Resume</a>
+                    href="#experience">Experience</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors text-slate-500 dark:text-slate-400"
+                    href="#achievements">Achievements</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors text-slate-500 dark:text-slate-400"
+                    href="Shivang_Goliyan_12312328_CV_Checked.pdf" download>Resume</a>
                 <a class="text-sm font-medium hover:text-primary transition-colors text-slate-500 dark:text-slate-400"
                     href="#contact">Contact</a>
             </nav>
@@ -165,9 +169,9 @@
             <div class="@container">
                 <div class="flex flex-col gap-6 px-4 py-10 @[480px]:gap-8 @[864px]:flex-row-reverse items-center">
                     <!-- Image Wrapper -->
-                    <div class="w-full bg-center bg-no-repeat aspect-square md:aspect-video bg-cover rounded-2xl shadow-xl @[480px]:min-w-[400px] @[864px]:w-1/2"
+                    <div class="w-full max-w-[320px] mx-auto bg-no-repeat aspect-[3/4] rounded-2xl shadow-xl @[864px]:w-2/5"
                         data-alt="Professional software developer smiling in a modern office environment"
-                        style='background-image: url("photo_6168092754328619917_y.jpg");'>
+                        style='background-image: url("WhatsApp Image 2026-02-13 at 1.56.20 AM.jpg"); background-size: 180%; background-position: center 70%;'>
                     </div>
                     <!-- Text Content -->
                     <div
@@ -263,6 +267,232 @@
     <!-- MAIN CONTENT CONTAINER FOR PROJECTS, SKILLS, EXPERIENCE, CONTACT -->
     <main class="flex-1 flex flex-col items-center py-10 px-4 md:px-10 lg:px-20 w-full">
 
+        <!-- Skills Section -->
+        <section id="skills" class="w-full max-w-6xl mb-20 scroll-mt-24">
+            <!-- Header -->
+            <div class="mb-10 text-center md:text-left">
+                <h2 class="text-slate-900 dark:text-white text-3xl font-black leading-tight tracking-[-0.02em] mb-3">
+                    Technical Expertise</h2>
+                <p class="text-slate-500 dark:text-slate-400 text-base font-normal max-w-2xl">
+                    My technical toolbelt for building scalable applications and managing products effectively.
+                </p>
+            </div>
+            <div class="flex flex-col md:flex-row gap-8">
+                <!-- Tabs Sidebar -->
+                <div id="skills-tabs" class="flex md:flex-col gap-2 overflow-x-auto md:overflow-visible pb-2 md:pb-0 md:w-64 shrink-0">
+                    <button data-tab="frontend"
+                        class="skill-tab active flex items-center gap-3 px-4 py-3 rounded-lg bg-surface-light dark:bg-surface-dark border-l-4 border-primary shadow-sm text-left transition-all">
+                        <span class="material-symbols-outlined text-primary">devices</span>
+                        <div>
+                            <p class="font-bold text-slate-900 dark:text-white text-sm">Frontend</p>
+                            <p class="text-xs text-slate-500 dark:text-slate-400">UI & User Experience</p>
+                        </div>
+                    </button>
+                    <button data-tab="backend"
+                        class="skill-tab flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-white/60 dark:hover:bg-surface-dark/60 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white text-left transition-all border-l-4 border-transparent">
+                        <span class="material-symbols-outlined">dns</span>
+                        <div>
+                            <p class="font-bold text-sm">Backend</p>
+                            <p class="text-xs opacity-80">Server & Database</p>
+                        </div>
+                    </button>
+                    <button data-tab="devops"
+                        class="skill-tab flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-white/60 dark:hover:bg-surface-dark/60 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white text-left transition-all border-l-4 border-transparent">
+                        <span class="material-symbols-outlined">cloud_sync</span>
+                        <div>
+                            <p class="font-bold text-sm">DevOps</p>
+                            <p class="text-xs opacity-80">CI/CD & Cloud</p>
+                        </div>
+                    </button>
+                </div>
+                <!-- Skills Content Area -->
+                <div
+                    class="flex-1 bg-surface-light dark:bg-surface-dark rounded-2xl p-6 md:p-8 shadow-sm border border-slate-200 dark:border-slate-700">
+
+                    <!-- Frontend Panel -->
+                    <div id="panel-frontend" class="skill-panel grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-6">
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-end">
+                                <div class="flex items-center gap-2">
+                                    <i class="devicon-react-original text-xl text-slate-900 dark:text-white"></i>
+                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">React.js</span>
+                                </div>
+                                <span class="text-xs font-bold text-primary">95%</span>
+                            </div>
+                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-primary rounded-full w-[95%]"></div>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-end">
+                                <div class="flex items-center gap-2">
+                                    <i class="devicon-javascript-plain text-xl text-slate-900 dark:text-white"></i>
+                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">JavaScript</span>
+                                </div>
+                                <span class="text-xs font-bold text-primary">90%</span>
+                            </div>
+                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-primary rounded-full w-[90%]"></div>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-end">
+                                <div class="flex items-center gap-2">
+                                    <i class="devicon-tailwindcss-original text-xl text-slate-900 dark:text-white"></i>
+                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">Tailwind CSS</span>
+                                </div>
+                                <span class="text-xs font-bold text-primary">85%</span>
+                            </div>
+                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-primary rounded-full w-[85%]"></div>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-end">
+                                <div class="flex items-center gap-2">
+                                    <i class="devicon-html5-plain text-xl text-slate-900 dark:text-white"></i>
+                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">HTML / CSS</span>
+                                </div>
+                                <span class="text-xs font-bold text-primary">90%</span>
+                            </div>
+                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-primary rounded-full w-[90%]"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend Panel -->
+                    <div id="panel-backend" class="skill-panel hidden grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-6">
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-end">
+                                <div class="flex items-center gap-2">
+                                    <i class="devicon-nodejs-plain text-xl text-slate-900 dark:text-white"></i>
+                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">Node.js & Express</span>
+                                </div>
+                                <span class="text-xs font-bold text-primary">90%</span>
+                            </div>
+                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-primary rounded-full w-[90%]"></div>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-end">
+                                <div class="flex items-center gap-2">
+                                    <i class="devicon-mongodb-plain text-xl text-slate-900 dark:text-white"></i>
+                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">MongoDB</span>
+                                </div>
+                                <span class="text-xs font-bold text-primary">85%</span>
+                            </div>
+                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-primary rounded-full w-[85%]"></div>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-end">
+                                <div class="flex items-center gap-2">
+                                    <i class="devicon-mysql-plain text-xl text-slate-900 dark:text-white"></i>
+                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">MySQL</span>
+                                </div>
+                                <span class="text-xs font-bold text-primary">80%</span>
+                            </div>
+                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-primary rounded-full w-[80%]"></div>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-end">
+                                <div class="flex items-center gap-2">
+                                    <i class="devicon-solidity-plain text-xl text-slate-900 dark:text-white"></i>
+                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">Solidity / Web3</span>
+                                </div>
+                                <span class="text-xs font-bold text-primary">80%</span>
+                            </div>
+                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-primary rounded-full w-[80%]"></div>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-end">
+                                <div class="flex items-center gap-2">
+                                    <i class="devicon-python-plain text-xl text-slate-900 dark:text-white"></i>
+                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">Python</span>
+                                </div>
+                                <span class="text-xs font-bold text-primary">85%</span>
+                            </div>
+                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-primary rounded-full w-[85%]"></div>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-end">
+                                <div class="flex items-center gap-2">
+                                    <i class="devicon-cplusplus-plain text-xl text-slate-900 dark:text-white"></i>
+                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">C / C++</span>
+                                </div>
+                                <span class="text-xs font-bold text-primary">85%</span>
+                            </div>
+                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-primary rounded-full w-[85%]"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DevOps Panel -->
+                    <div id="panel-devops" class="skill-panel hidden grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-6">
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-end">
+                                <div class="flex items-center gap-2">
+                                    <i class="devicon-git-plain text-xl text-slate-900 dark:text-white"></i>
+                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">Git & GitHub</span>
+                                </div>
+                                <span class="text-xs font-bold text-primary">90%</span>
+                            </div>
+                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-primary rounded-full w-[90%]"></div>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-end">
+                                <div class="flex items-center gap-2">
+                                    <i class="devicon-linux-plain text-xl text-slate-900 dark:text-white"></i>
+                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">Linux</span>
+                                </div>
+                                <span class="text-xs font-bold text-primary">85%</span>
+                            </div>
+                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-primary rounded-full w-[85%]"></div>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-end">
+                                <div class="flex items-center gap-2">
+                                    <i class="devicon-firebase-plain text-xl text-slate-900 dark:text-white"></i>
+                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">Firebase</span>
+                                </div>
+                                <span class="text-xs font-bold text-primary">80%</span>
+                            </div>
+                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-primary rounded-full w-[80%]"></div>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-end">
+                                <div class="flex items-center gap-2">
+                                    <span class="material-symbols-outlined text-xl text-slate-900 dark:text-white">shield</span>
+                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">Wireshark & Metasploit</span>
+                                </div>
+                                <span class="text-xs font-bold text-primary">75%</span>
+                            </div>
+                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-primary rounded-full w-[75%]"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
         <!-- Projects Section -->
         <section id="projects" class="w-full max-w-6xl mb-20 scroll-mt-24">
             <!-- Section Header -->
@@ -270,8 +500,7 @@
                 <h1 class="text-slate-900 dark:text-white text-4xl font-black leading-tight tracking-[-0.033em]">
                     Featured Projects</h1>
                 <p class="text-[#4c869a] dark:text-slate-400 text-lg font-normal leading-normal max-w-2xl">
-                    A selection of my work in Web Development and Product Management, crafted with precision from Abu,
-                    Rajasthan.
+                    A selection of my work in Web Development and Product Management.
                 </p>
             </div>
 
@@ -285,9 +514,9 @@
                     class="flex h-9 items-center justify-center rounded-lg bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 px-5 transition-colors">
                     <p class="text-slate-900 dark:text-slate-300 text-sm font-medium leading-normal">Web Apps</p>
                 </button>
-                <button data-filter="saas"
+                <button data-filter="blockchain"
                     class="flex h-9 items-center justify-center rounded-lg bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 px-5 transition-colors">
-                    <p class="text-slate-900 dark:text-slate-300 text-sm font-medium leading-normal">SaaS</p>
+                    <p class="text-slate-900 dark:text-slate-300 text-sm font-medium leading-normal">Blockchain</p>
                 </button>
                 <button data-filter="tools"
                     class="flex h-9 items-center justify-center rounded-lg bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 px-5 transition-colors">
@@ -298,7 +527,7 @@
             <!-- Projects Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="projects-grid">
                 <!-- Card 1: MediChain -->
-                <div data-category="web"
+                <div data-category="blockchain"
                     class="group flex flex-col bg-surface-light dark:bg-surface-dark rounded-xl overflow-hidden shadow-sm border border-slate-200 dark:border-slate-700 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                     <div class="w-full aspect-video bg-gray-200 relative overflow-hidden">
                         <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
@@ -328,7 +557,7 @@
                                 <span class="material-symbols-outlined text-[18px]">visibility</span>
                                 Demo
                             </button>
-                            <a href="https://github.com/shivang-goliyan" target="_blank"
+                            <a href="https://github.com/shivang-goliyan/MediChain" target="_blank"
                                 class="flex-1 h-9 rounded-lg border border-slate-200 dark:border-slate-600 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-900 dark:text-white text-sm font-semibold transition-colors flex items-center justify-center gap-2">
                                 <span class="material-symbols-outlined text-[18px]">code</span>
                                 Code
@@ -365,7 +594,7 @@
                                 <span class="material-symbols-outlined text-[18px]">visibility</span>
                                 Demo
                             </button>
-                            <a href="https://github.com/shivang-goliyan" target="_blank"
+                            <a href="https://github.com/shivang-goliyan/Real-Estate-Listing-and-Property-Management" target="_blank"
                                 class="flex-1 h-9 rounded-lg border border-slate-200 dark:border-slate-600 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-900 dark:text-white text-sm font-semibold transition-colors flex items-center justify-center gap-2">
                                 <span class="material-symbols-outlined text-[18px]">code</span>
                                 Code
@@ -403,124 +632,11 @@
                                 <span class="material-symbols-outlined text-[18px]">visibility</span>
                                 Demo
                             </button>
-                            <a href="https://github.com/shivang-goliyan" target="_blank"
+                            <a href="https://github.com/shivang-goliyan/Smokee" target="_blank"
                                 class="flex-1 h-9 rounded-lg border border-slate-200 dark:border-slate-600 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-900 dark:text-white text-sm font-semibold transition-colors flex items-center justify-center gap-2">
                                 <span class="material-symbols-outlined text-[18px]">code</span>
                                 Code
                             </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills" class="w-full max-w-6xl mb-20 scroll-mt-24">
-            <!-- Header -->
-            <div class="mb-10 text-center md:text-left">
-                <h2 class="text-slate-900 dark:text-white text-3xl font-black leading-tight tracking-[-0.02em] mb-3">
-                    Technical Expertise</h2>
-                <p class="text-slate-500 dark:text-slate-400 text-base font-normal max-w-2xl">
-                    My technical toolbelt for building scalable applications and managing products effectively.
-                </p>
-            </div>
-            <div class="flex flex-col md:flex-row gap-8">
-                <!-- Tabs Sidebar -->
-                <div class="flex md:flex-col gap-2 overflow-x-auto md:overflow-visible pb-2 md:pb-0 md:w-64 shrink-0">
-                    <button
-                        class="flex items-center gap-3 px-4 py-3 rounded-lg bg-surface-light dark:bg-surface-dark border-l-4 border-primary shadow-sm text-left transition-all">
-                        <span class="material-symbols-outlined text-primary">devices</span>
-                        <div>
-                            <p class="font-bold text-slate-900 dark:text-white text-sm">Frontend</p>
-                            <p class="text-xs text-slate-500 dark:text-slate-400">UI & User Experience</p>
-                        </div>
-                    </button>
-                    <button
-                        class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-white/60 dark:hover:bg-surface-dark/60 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white text-left transition-all border-l-4 border-transparent">
-                        <span class="material-symbols-outlined">dns</span>
-                        <div>
-                            <p class="font-bold text-sm">Backend</p>
-                            <p class="text-xs opacity-80">Server & Database</p>
-                        </div>
-                    </button>
-                    <button
-                        class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-white/60 dark:hover:bg-surface-dark/60 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white text-left transition-all border-l-4 border-transparent">
-                        <span class="material-symbols-outlined">cloud_sync</span>
-                        <div>
-                            <p class="font-bold text-sm">DevOps</p>
-                            <p class="text-xs opacity-80">CI/CD & Cloud</p>
-                        </div>
-                    </button>
-                </div>
-                <!-- Skills Content Area -->
-                <div
-                    class="flex-1 bg-surface-light dark:bg-surface-dark rounded-2xl p-6 md:p-8 shadow-sm border border-slate-200 dark:border-slate-700">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-6">
-                        <!-- Skill Item -->
-                        <div class="space-y-2">
-                            <div class="flex justify-between items-end">
-                                <div class="flex items-center gap-2">
-                                    <i class="devicon-react-original text-xl text-slate-900 dark:text-white"></i>
-                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">React &
-                                        MERN</span>
-                                </div>
-                                <span class="text-xs font-bold text-primary">95%</span>
-                            </div>
-                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
-                                <div class="h-full bg-primary rounded-full w-[95%]"></div>
-                            </div>
-                        </div>
-                        <!-- Skill Item -->
-                        <div class="space-y-2">
-                            <div class="flex justify-between items-end">
-                                <div class="flex items-center gap-2">
-                                    <i class="devicon-cplusplus-plain text-xl text-slate-900 dark:text-white"></i>
-                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">C / C++</span>
-                                </div>
-                                <span class="text-xs font-bold text-primary">85%</span>
-                            </div>
-                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
-                                <div class="h-full bg-primary rounded-full w-[85%]"></div>
-                            </div>
-                        </div>
-                        <!-- Skill Item -->
-                        <div class="space-y-2">
-                            <div class="flex justify-between items-end">
-                                <div class="flex items-center gap-2">
-                                    <i class="devicon-python-plain text-xl text-slate-900 dark:text-white"></i>
-                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">Python</span>
-                                </div>
-                                <span class="text-xs font-bold text-primary">85%</span>
-                            </div>
-                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
-                                <div class="h-full bg-primary rounded-full w-[85%]"></div>
-                            </div>
-                        </div>
-                        <!-- Skill Item -->
-                        <div class="space-y-2">
-                            <div class="flex justify-between items-end">
-                                <div class="flex items-center gap-2">
-                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">Solidity /
-                                        Web3</span>
-                                </div>
-                                <span class="text-xs font-bold text-primary">80%</span>
-                            </div>
-                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
-                                <div class="h-full bg-primary rounded-full w-[80%]"></div>
-                            </div>
-                        </div>
-                        <!-- Skill Item -->
-                        <div class="space-y-2">
-                            <div class="flex justify-between items-end">
-                                <div class="flex items-center gap-2">
-                                    <span class="font-semibold text-sm text-slate-900 dark:text-white">Tools (Git,
-                                        Linux, Firebase)</span>
-                                </div>
-                                <span class="text-xs font-bold text-primary">90%</span>
-                            </div>
-                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
-                                <div class="h-full bg-primary rounded-full w-[90%]"></div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -532,44 +648,90 @@
             <!-- Header -->
             <div class="mb-10 text-center md:text-left">
                 <h2 class="text-slate-900 dark:text-white text-3xl font-black leading-tight tracking-[-0.02em] mb-3">
-                    Certifications</h2>
+                    Certificates</h2>
                 <p class="text-slate-500 dark:text-slate-400 text-base font-normal max-w-2xl">
-                    Professional certifications and credentials.
+                    Professional certificates and credentials.
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Certificate 1 -->
-                <div
-                    class="flex flex-col p-6 rounded-xl bg-surface-light dark:bg-surface-dark border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition-all">
+                <a href="https://drive.google.com/file/d/1TtgBj_x469kgMO77Xb2ncyy4OtdgCwWk/view?usp=sharing" target="_blank"
+                    class="flex flex-col p-6 rounded-xl bg-surface-light dark:bg-surface-dark border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
                     <div class="size-12 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-4">
                         <span class="material-symbols-outlined">verified</span>
                     </div>
-                    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-1">Full Stack Web Development</h3>
-                    <p class="text-sm font-medium text-slate-500 dark:text-slate-400 mb-4">Techvanto Academy • 2025</p>
+                    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-1">Full Stack Web Development with ReactJS</h3>
+                    <p class="text-sm font-medium text-slate-500 dark:text-slate-400 mb-4">Techvanto Academy • Jul 2025</p>
                     <span class="text-xs text-slate-500">ReactJS, Component Architecture, Hooks</span>
-                </div>
+                </a>
                 <!-- Certificate 2 -->
-                <div
-                    class="flex flex-col p-6 rounded-xl bg-surface-light dark:bg-surface-dark border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition-all">
+                <a href="https://www.udemy.com/certificate/UC-ab4d1f4e-718a-42d1-915e-acc394291fa4/" target="_blank"
+                    class="flex flex-col p-6 rounded-xl bg-surface-light dark:bg-surface-dark border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
                     <div class="size-12 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-4">
                         <span class="material-symbols-outlined">workspace_premium</span>
                     </div>
-                    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-1">Wireshark: Ethical Hacking</h3>
-                    <p class="text-sm font-medium text-slate-500 dark:text-slate-400 mb-4">Udemy • 2024</p>
-                    <span class="text-xs text-slate-500">Packet Analysis, Network Security</span>
-                </div>
+                    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-1">Wireshark: Packet Analysis and Ethical Hacking</h3>
+                    <p class="text-sm font-medium text-slate-500 dark:text-slate-400 mb-4">Udemy • Oct 2024</p>
+                    <span class="text-xs text-slate-500">Packet Analysis, Network Security, Core Skills</span>
+                </a>
                 <!-- Certificate 3 -->
-                <div
-                    class="flex flex-col p-6 rounded-xl bg-surface-light dark:bg-surface-dark border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition-all">
+                <a href="https://www.udemy.com/certificate/UC-e4662a78-bf04-4674-b5ad-9424bb4c46dc/" target="_blank"
+                    class="flex flex-col p-6 rounded-xl bg-surface-light dark:bg-surface-dark border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
                     <div class="size-12 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-4">
                         <span class="material-symbols-outlined">school</span>
                     </div>
-                    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-1">Web Dev Bootcamp</h3>
-                    <p class="text-sm font-medium text-slate-500 dark:text-slate-400 mb-4">Udemy • 2025</p>
+                    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-1">Full Stack Web Development Bootcamp</h3>
+                    <p class="text-sm font-medium text-slate-500 dark:text-slate-400 mb-4">Udemy • Jul 2025</p>
                     <span class="text-xs text-slate-500">Full Stack Development</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="w-full max-w-6xl mb-20 scroll-mt-24">
+            <div class="mb-10 text-center md:text-left">
+                <h2 class="text-slate-900 dark:text-white text-3xl font-black leading-tight tracking-[-0.02em] mb-3">
+                    Experience</h2>
+                <p class="text-slate-500 dark:text-slate-400 text-base font-normal max-w-2xl">
+                    Professional training and hands-on development experience.
+                </p>
+            </div>
+
+            <div class="relative pl-4 md:pl-0">
+                <div class="grid grid-cols-[32px_1fr] md:grid-cols-[48px_1fr] gap-x-4 md:gap-x-8">
+                    <!-- Techvanto Academy -->
+                    <div class="flex flex-col items-center pt-2 relative">
+                        <div
+                            class="flex items-center justify-center w-8 h-8 md:w-12 md:h-12 rounded-full bg-primary/10 dark:bg-primary/20 text-primary z-10 border-4 border-background-light dark:border-background-dark">
+                            <span class="material-symbols-outlined text-[18px] md:text-[24px]">work</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col py-2">
+                        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-2">
+                            <h3 class="text-lg md:text-xl font-bold text-slate-900 dark:text-white">Trainee Developer</h3>
+                            <span
+                                class="text-primary font-medium bg-primary/10 px-3 py-1 rounded-full text-xs w-fit">Jun 2025 – Jul 2025</span>
+                        </div>
+                        <p class="text-slate-600 dark:text-slate-300 font-medium mb-3">Techvanto Academy &bull; Full Stack Web Development with ReactJS</p>
+                        <ul class="text-slate-500 dark:text-slate-400 text-sm md:text-base leading-relaxed space-y-2">
+                            <li class="flex gap-2">
+                                <span class="text-primary mt-1 shrink-0">&bull;</span>
+                                <span>Gained proficiency in full-stack web development using ReactJS, component-based architecture, state management with hooks, and responsive UI development best practices.</span>
+                            </li>
+                            <li class="flex gap-2">
+                                <span class="text-primary mt-1 shrink-0">&bull;</span>
+                                <span>Developed end-to-end web applications during a 6-week live training, working with backend integration, API consumption, and real-time data handling to build dynamic features.</span>
+                            </li>
+                            <li class="flex gap-2">
+                                <span class="text-primary mt-1 shrink-0">&bull;</span>
+                                <span>Served as a trainee developer, responsible for building scalable frontend and backend modules, debugging code, and delivering project milestones within deadlines.</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+        </section>
 
 
             <!-- Achievements Section -->
@@ -619,7 +781,7 @@
                                 <span class="material-symbols-outlined text-primary">workspace_premium</span>
                                 <p
                                     class="text-slate-500 dark:text-slate-400 text-sm font-medium uppercase tracking-wider">
-                                    Certifications</p>
+                                    Certificates</p>
                             </div>
                             <div class="flex items-baseline gap-2">
                                 <p class="text-4xl font-black text-slate-900 dark:text-white tracking-tight">3+</p>
@@ -749,14 +911,12 @@
                                 </div>
                                 <div class="flex flex-col">
                                     <h3 class="text-base font-bold text-slate-900 dark:text-white">Based in</h3>
-                                    <p class="text-slate-500 dark:text-slate-400">Abu, Rajasthan, India</p>
-                                    <div class="mt-3 w-full h-24 bg-slate-100 dark:bg-slate-800 rounded-md overflow-hidden relative"
-                                        data-alt="Abstract map pattern of Rajasthan"
-                                        style="background-image: radial-gradient(circle at 2px 2px, #cbd5e1 1px, transparent 0); background-size: 16px 16px;">
-                                        <div
-                                            class="absolute inset-0 flex items-center justify-center opacity-30 dark:opacity-20 pointer-events-none">
-                                            <span class="material-symbols-outlined text-4xl text-slate-400">map</span>
-                                        </div>
+                                    <p class="text-slate-500 dark:text-slate-400">Jalandhar, Punjab, India</p>
+                                        <div class="mt-3 w-full h-32 rounded-md overflow-hidden">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109513.97545752498!2d75.50781778671874!3d31.32603780000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5a5747a9eb91%3A0xc74b34c05aa5b4b8!2sJalandhar%2C%20Punjab!5e0!3m2!1sen!2sin!4v1707800000000!5m2!1sen!2sin"
+                                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -764,15 +924,16 @@
                             <div class="grid grid-cols-2 gap-4">
                                 <a class="flex flex-col items-center justify-center gap-2 p-6 rounded-xl bg-surface-light dark:bg-surface-dark border border-slate-200 dark:border-slate-700 shadow-sm hover:border-primary/50 hover:shadow-md transition-all group"
                                     href="https://github.com/shivang-goliyan" target="_blank">
-                                    <img alt="GitHub Logo"
-                                        class="w-8 h-8 dark:invert group-hover:scale-110 transition-transform"
-                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMlScfiBByDA5iHUF34TW3xddMoWcJn8VJ43gRIJDsVuvAg0FqDULKWuXkhdBtb_YgJ-_IggmU5Dx4AwiSXg0fMl3_DproI3-hcNDyXd8M5BvdUwJhf8SfpCRRSwKTjhTUM2YSc_GIPVexM2_QjQhG28z1B4iMBmz2f_iSgUQINihqrrPm-bUC0a8opyHOS5JOEqRSiF2sXQyW6QenQtHbf40onX9GVvyZh05HxedlsawTZF2iMvS5U0O5XBNhBrY_a2yzq6Ln-w" />
+                                    <svg class="w-8 h-8 text-slate-800 dark:text-white group-hover:scale-110 transition-transform" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
                                     <span class="text-sm font-medium text-slate-700 dark:text-slate-300">GitHub</span>
                                 </a>
                                 <a class="flex flex-col items-center justify-center gap-2 p-6 rounded-xl bg-surface-light dark:bg-surface-dark border border-slate-200 dark:border-slate-700 shadow-sm hover:border-primary/50 hover:shadow-md transition-all group"
                                     href="https://www.linkedin.com/in/shivang-goliyan/" target="_blank">
-                                    <img alt="LinkedIn Logo" class="w-8 h-8 group-hover:scale-110 transition-transform"
-                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaHjwgWvrIi7lQNRFV4RJCQuTtkBOQgnOGN1VqZPjRLjwXzZp0M5g8lnBHSQFSMWDDNqCrI0_sKpyIs6OUjuhwyoHNztR332Ofonv3FUnXLEGu65nAG4ssRDJpBIA8xwNeRnU6eXupjJGsFHYJJehHrIVOVOyJ2jNhxcAz884E82LV_dPzIkqTbldrW9tpj3Q5xB6hKGY63q3W0OIFbt4dMqklYMDcNf-tioGhRDD3-2MD07skpz-Vi2KWV-gLL-HSrXYkpkN8Wg" />
+                                    <svg class="w-8 h-8 text-[#0A66C2] group-hover:scale-110 transition-transform" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                    </svg>
                                     <span class="text-sm font-medium text-slate-700 dark:text-slate-300">LinkedIn</span>
                                 </a>
                             </div>
@@ -794,14 +955,7 @@
                                             for="email">Email</label>
                                         <input
                                             class="w-full rounded-lg bg-slate-50 dark:bg-slate-900 border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent transition-shadow placeholder:text-slate-400"
-                                            id="email" value="goliyanshivang07@gmail.com" type="email" readonly />
-                                    </div>
-                                    <div class="flex flex-col gap-2">
-                                        <label class="text-sm font-medium text-slate-700 dark:text-slate-300"
-                                            for="phone">Phone</label>
-                                        <input
-                                            class="w-full rounded-lg bg-slate-50 dark:bg-slate-900 border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent transition-shadow placeholder:text-slate-400"
-                                            id="phone" value="+91 9058664455" type="tel" readonly />
+                                            id="email" placeholder="your@email.com" type="email" />
                                     </div>
                                 </div>
                                 <div class="flex flex-col gap-2 mb-6">
@@ -845,7 +999,7 @@
             </p>
             <div class="flex items-center gap-2 text-sm text-slate-500 dark:text-slate-400">
                 <span class="material-symbols-outlined text-[16px] text-red-500">favorite</span>
-                <span>Made in Abu, Rajasthan</span>
+                <span>Made in Jalandhar, Punjab</span>
             </div>
             <div class="flex gap-4">
                 <a class="text-slate-400 hover:text-primary transition-colors p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800"
@@ -902,6 +1056,36 @@
         document.querySelectorAll('#mobile-menu a').forEach(link => {
             link.addEventListener('click', () => {
                 mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // --- Skills Tab Logic ---
+        const skillTabs = document.querySelectorAll('.skill-tab');
+        const skillPanels = document.querySelectorAll('.skill-panel');
+
+        skillTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const target = tab.getAttribute('data-tab');
+
+                // Reset all tabs
+                skillTabs.forEach(t => {
+                    t.classList.remove('bg-surface-light', 'dark:bg-surface-dark', 'border-primary', 'shadow-sm', 'active');
+                    t.classList.add('hover:bg-white/60', 'dark:hover:bg-surface-dark/60', 'text-slate-600', 'dark:text-slate-400', 'border-transparent');
+                    t.querySelector('.material-symbols-outlined').classList.remove('text-primary');
+                    t.querySelector('p:first-child').classList.remove('text-slate-900', 'dark:text-white');
+                });
+
+                // Activate clicked tab
+                tab.classList.add('bg-surface-light', 'dark:bg-surface-dark', 'border-primary', 'shadow-sm', 'active');
+                tab.classList.remove('hover:bg-white/60', 'dark:hover:bg-surface-dark/60', 'text-slate-600', 'dark:text-slate-400', 'border-transparent');
+                tab.querySelector('.material-symbols-outlined').classList.add('text-primary');
+                tab.querySelector('p:first-child').classList.add('text-slate-900', 'dark:text-white');
+
+                // Show/hide panels
+                skillPanels.forEach(panel => {
+                    panel.classList.add('hidden');
+                });
+                document.getElementById('panel-' + target).classList.remove('hidden');
             });
         });
 
